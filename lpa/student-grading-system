@@ -1,0 +1,33 @@
+package teste;
+
+import java.util.Scanner;
+
+public class estudo5 {
+
+	public static void main(String[] args) {
+		int nota;
+		
+		Scanner teclado = new Scanner(System.in);
+		
+		System.out.println("Digite a sua nota");
+		nota = teclado.nextInt();
+		
+		if(nota>=7 && nota<=10) {
+			System.out.println("Você está aprovado. Parabéns!");
+		}else 
+			
+			if(nota<7) {
+				System.out.println("Sua nota não é suficiente para alcançar a aprovação");
+			}else
+				
+				System.out.println("Nota inválida");
+		
+		teclado.close();
+				
+				
+			
+		
+
+	}
+
+}
