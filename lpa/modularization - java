@@ -1,0 +1,55 @@
+package teste;
+
+import java.util.Scanner;
+
+public class modularizacaomenu {
+
+	public static void main(String[] args) {
+		
+		Scanner teclado = new Scanner (System.in);
+		
+		int num1, num2, soma, sub;
+		int opcao;
+		
+		System.out.println("Digite os 2 valores");
+		num1 = teclado.nextInt();
+		num2 = teclado.nextInt();
+		
+	
+		
+		System.out.println("Se você deseja somar os números, digite: 1. Se deseja subtrair os números, digite: 2 ");
+		opcao = teclado.nextInt();
+		
+		if (opcao==1) {
+			soma (num1, num2);
+		} else if (opcao==2) {
+			sub (num1, num2);
+		} else { 
+			System.out.println("Opção inválida");
+			
+			teclado.close();
+		}
+		
+
+	}
+
+
+
+public static void sub (int num1, int num2) {
+	int subtracao;
+	
+	subtracao = num1 - num2;
+	System.out.println(" O resultado da subtração dos seus números é: " + subtracao);
+	
+}
+
+public static void soma (int num1, int num2) {
+	
+	int adicao = num1 + num2;
+	System.out.println("O resultado da soma dos seus números é:" + adicao);
+}
+
+}
+	
+	
+
