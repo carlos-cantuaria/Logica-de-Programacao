@@ -36,9 +36,8 @@ public class modularizacaomenu {
 
 
 public static void sub (int num1, int num2) {
-	int subtracao;
 	
-	subtracao = num1 - num2;
+	int subtracao = num1 - num2;
 	System.out.println(" O resultado da subtração dos seus números é: " + subtracao);
 	
 }
@@ -52,4 +51,6 @@ public static void soma (int num1, int num2) {
 }
 	
 	
+
+
 
