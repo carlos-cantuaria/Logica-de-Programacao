@@ -8,7 +8,7 @@ public class modularizacaomenu {
 		
 		Scanner teclado = new Scanner (System.in);
 		
-		int num1, num2, soma, sub;
+		int num1, num2;
 		int opcao;
 		
 		System.out.println("Digite os 2 valores");
